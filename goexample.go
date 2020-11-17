@@ -1,8 +1,9 @@
 package main
 
-import ("fmt")
+import (
+	"fmt"
+)
 
-
-func main(){
-	fmt.println("Hello World from Go Actions")
+func main() {
+	fmt.Println("Hello YouTube!")
 }
