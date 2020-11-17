@@ -1,0 +1,8 @@
+name: "go actions"
+description: "go actions"
+
+runs: 
+  using : composite
+  steps:
+  - run: go run goexample.go
+    shell: bash                                                       
